@@ -1,5 +1,5 @@
 
-# Firewise App
+# IoT App
 
 ## Introduction
 
@@ -12,8 +12,7 @@
 Before getting started, ensure you have the following installed:
 
 - [Flutter SDK](https://docs.flutter.dev/get-started/install)
-- [Android Studio](https://developer.android.com/studio)
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/)
 - For demo purposes: Use either the Android Studio emulator or connect a physical device via USB debugging with Developer permissions enabled.
 
 ### Installation
