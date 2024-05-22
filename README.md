@@ -1,10 +1,7 @@
 
 # IoT App
-
 ## Introduction
-
-`firewise_app` is a fire alert software designed for home use. Developed using Flutter, it aims to alert users about fire hazards within their homes.
-
+----it's 40% like blynk (but...)
 ## Getting Started
 
 ### Requirements
@@ -34,12 +31,32 @@ Before getting started, ensure you have the following installed:
    ```bash
    flutter pub get
    ```
-
-4. **Run the app on an emulator or physical device**
+4. **Set up Firebase**
+- Create new project in firebase and follow intruction to change ```android\app\google-services.json```
+-  Firebase real time with structure like :
+```json
+{
+  "Virtual Pins": {
+    "87Y2HG346729Y7924": {
+      "A1": "1",
+      "V1": 23.53
+    }
+  },
+  "users": {
+    "87Y2HG346729Y7924": {
+      "address": "",
+      "image": "",
+      "user_name": ""
+    }
+  }
+}
+```
+5. **Run the app on an emulator or physical device**
 
    ```bash
    flutter run
    ```
+
 
 ### Build for Android:
 
