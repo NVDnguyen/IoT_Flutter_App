@@ -17,7 +17,7 @@ Before getting started, ensure you have the following installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Eggien14/FireWiseTech.git
+   https://github.com/NVDnguyen/IoT_Flutter_App
    ```
 
 2. **Navigate to the project directory**
@@ -29,7 +29,9 @@ Before getting started, ensure you have the following installed:
 3. **Install dependencies**
 
    ```bash
+   flutter clean
    flutter pub get
+   flutter run
    ```
 4. **Set up Firebase**
 - Create new project in firebase and follow intruction to change ```android\app\google-services.json```
